@@ -1,0 +1,107 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 30px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+div {
+    margin-bottom: 30px;
+}
+
+/* Ajout de styles au bouton "Ajouter" */
+button {
+    background-color: #4CAF50;
+    /* Couleur de fond */
+    color: white;
+    /* Couleur du texte */
+    padding: 10px 20px;
+    /* Espacement interne */
+    border: none;
+    /* Suppression de la bordure */
+    border-radius: 5px;
+    /* Arrondir les coins */
+    cursor: pointer;
+    /* Curseur au survol */
+}
+
+/* Changement de style au survol du bouton */
+button:hover {
+    background-color: #45a049;
+    /* Couleur de fond au survol */
+}
+
+input#newGameInput {
+    padding: 8px 20px;
+}
+
+/* Style de la croix de suppression */
+
+
+/* Changement de style au survol de la croix de suppression */
+.delete-cross:hover {
+    background-color: darkred;
+    /* Couleur de fond au survol */
+}
+
+/* Supprimer les bordures du quatrième <td> de chaque ligne */
+tr td:nth-child(4) {
+    border: none;
+}
+
+/* Supprimer les bordures du quatrième <td> de chaque ligne */
+tr td:nth-child(5) {
+    border: none;
+}
+
+
+/* Style du bouton Modifier */
+
+
+/* Changement de style au survol du bouton Modifier */
+.edit-stylo:hover {
+    background-color: lightyellow; /* Couleur de fond au survol */
+}
+
+
+
+/* Style des colonnes "Philippe" et "Ugur" */
+td:nth-child(2),
+td:nth-child(3) {
+    width: 60px; /* Largeur réduite pour les colonnes "Philippe" et "Ugur" */
+}
+
+td:nth-child(4),
+td:nth-child(5) {
+    width: 40px; 
+}
+
+/* Style de la croix de suppression */
+.delete-cross {
+    background-color: red;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+
+
+}
+
+/* Style du bouton Modifier */
+.edit-stylo {
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+
+
+}
+
